@@ -1,0 +1,14 @@
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/controller/RegisterSubmitController.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/controller/RegisterController.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/InMemoryUserRepository.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/controller/HelloWorldController.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/service/InMemoryUserService.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/filter/CharsetEncodingFilter.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/UserRepository.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/service/DatabaseUserService.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/function/ThrowableFunction.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/service/UserService.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/domain/User.java
