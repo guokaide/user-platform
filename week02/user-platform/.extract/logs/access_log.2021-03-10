@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:23:25:36 +0800] POST /register/submit HTTP/1.1 200 800 http-bio-8080-exec-1 1065
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:23:25:36 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:23:25:37 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:23:25:46 +0800] POST /register/submit HTTP/1.1 200 800 http-bio-8080-exec-5 123
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:23:25:46 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-6 2
