@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="user-web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="384b0c7f-0d70-4a09-abab-c4549ad568ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/DefaultConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/DefaultConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/DefaultConfigProviderResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/DefaultConfigValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/AbstractConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/BigDecimalConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/BigIntegerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/BooleanConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/ByteConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/CharacterConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/Converters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/DoubleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/FloatConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/IntegerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/LongConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/PrioritizedConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/ShortConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/converter/StringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/ConfigSourceOrdinalComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/ConfigSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/DefaultResourceConfigSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/DynamicConfigSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/JavaSystemPropertiesConfigSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/source/OperationSystemEnvironmentVariablesConfigSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/logging/UserWebLoggingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/PlatformJMXMBeansDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/StandardMBeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserMBeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserMXBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserManagerMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.Config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.ConfigProviderResolver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.ConfigSource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.Converter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/test/java/org/geektimes/configuration/demo/PreferencesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/context/ComponentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/context/ComponentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/orm/jpa/DelegatingEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/orm/jpa/DelegatingEntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="user-platform" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1p2TaWpt9RTJaf5Nv6AGXDn2sAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/webapp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.geektimes.configuration.microprofile.config.source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserMBeanDemo">
+    <configuration name="PlatformJMXMBeansDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.management.PlatformJMXMBeansDemo" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StandardMBeanDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.management.StandardMBeanDemo" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMBeanDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.management.UserMBeanDemo" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserWebLoggingConfiguration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.logging.UserWebLoggingConfiguration" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user-web-v1-SNAPSHOT-war-exec.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="user-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user_web_war" />
+          </settings>
+        </artifact>
+        <artifact name="user-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_43_user-platform" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63342" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="user-web:war exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="user-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="user-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user_web_war" />
+          </settings>
+        </artifact>
+        <artifact name="user-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_user-platform" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63347" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="user-web:war exploded" />
+          <artifact name="user-web:war" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="user-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserWebLoggingConfiguration" />
+      <item itemvalue="JAR Application.user-web-v1-SNAPSHOT-war-exec.jar" />
+      <item itemvalue="Remote.debug" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.43" />
+      <item itemvalue="Application.UserMBeanDemo" />
+      <item itemvalue="Application.StandardMBeanDemo" />
+      <item itemvalue="Application.PlatformJMXMBeansDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserMBeanDemo" />
+        <item itemvalue="Application.PlatformJMXMBeansDemo" />
+        <item itemvalue="Application.StandardMBeanDemo" />
+        <item itemvalue="Application.UserWebLoggingConfiguration" />
+        <item itemvalue="JAR Application.user-web-v1-SNAPSHOT-war-exec.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.20282187" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="384b0c7f-0d70-4a09-abab-c4549ad568ff" name="Default Changelist" comment="" />
+      <created>1614380248464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614380248464</updated>
+      <workItem from="1614380255272" duration="9269000" />
+      <workItem from="1614518869197" duration="3143000" />
+      <workItem from="1614528280736" duration="455000" />
+      <workItem from="1614690372111" duration="13491000" />
+      <workItem from="1614777856110" duration="2020000" />
+      <workItem from="1614859811658" duration="3615000" />
+      <workItem from="1615026447638" duration="10930000" />
+      <workItem from="1615311756040" duration="273000" />
+      <workItem from="1615312033131" duration="2241000" />
+      <workItem from="1615378549208" duration="9963000" />
+      <workItem from="1615628794855" duration="3011000" />
+      <workItem from="1615818133432" duration="2660000" />
+      <workItem from="1616247428332" duration="285000" />
+      <workItem from="1616422631753" duration="4876000" />
+      <workItem from="1616514135490" duration="8318000" />
+      <workItem from="1616644103857" duration="12210000" />
+      <workItem from="1616864556053" duration="8990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="435" key="#BuildArtifactsBeforeRunChooser" timestamp="1614523619139">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="580" y="435" key="#BuildArtifactsBeforeRunChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614523619139" />
+    <state x="396" y="144" key="#Project_Structure" timestamp="1614528436026">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="396" y="144" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614528436026" />
+    <state x="342" y="213" key="#Tomcat_Server" timestamp="1614522286227">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="342" y="213" key="#Tomcat_Server/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614522286227" />
+    <state x="127" y="211" width="1431" height="909" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615820534143">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="127" y="211" width="1431" height="909" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820534143" />
+    <state x="454" y="353" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614704609731">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="454" y="353" key="#com.intellij.fileTypes.FileTypeChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614704609731" />
+    <state x="2496" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1616849985818">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="657" y="210" key="#com.intellij.ide.util.MemberChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614704581009" />
+    <state x="2496" y="203" key="#com.intellij.ide.util.MemberChooser/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616849985818" />
+    <state x="691" y="210" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/54.0.1738.1120@54.0.1738.1120" timestamp="1614697305180" />
+    <state x="342" y="250" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1614523588815">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="342" y="250" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614523588815" />
+    <state x="571" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614696499074">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="571" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614696499074" />
+    <state x="47" y="79" width="1642" height="940" key="DiffContextDialog" timestamp="1615223684154">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="47" y="79" width="1642" height="940" key="DiffContextDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615223684154" />
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1615222817850" />
+    <state width="1866" height="311" key="GridCell.Tab.0.bottom" timestamp="1616925475617">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1738" height="326" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616431933144" />
+    <state width="1866" height="311" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616925475617" />
+    <state width="1738" height="326" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1615312029376" />
+    <state width="1738" height="326" key="GridCell.Tab.0.bottom/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616437467268" />
+    <state width="1738" height="364" key="GridCell.Tab.0.bottom/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075952" />
+    <state width="1866" height="311" key="GridCell.Tab.0.center" timestamp="1616925475616">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1738" height="326" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616431933143" />
+    <state width="1866" height="311" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616925475616" />
+    <state width="1738" height="326" key="GridCell.Tab.0.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1615312029375" />
+    <state width="1738" height="326" key="GridCell.Tab.0.center/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616437467266" />
+    <state width="1738" height="364" key="GridCell.Tab.0.center/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075951" />
+    <state width="1866" height="311" key="GridCell.Tab.0.left" timestamp="1616925475616">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1738" height="326" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616431933142" />
+    <state width="1866" height="311" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616925475616" />
+    <state width="1738" height="326" key="GridCell.Tab.0.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1615312029374" />
+    <state width="1738" height="326" key="GridCell.Tab.0.left/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616437467265" />
+    <state width="1738" height="364" key="GridCell.Tab.0.left/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075950" />
+    <state width="1866" height="311" key="GridCell.Tab.0.right" timestamp="1616925475617">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1738" height="326" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616431933144" />
+    <state width="1866" height="311" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616925475617" />
+    <state width="1738" height="326" key="GridCell.Tab.0.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1615312029375" />
+    <state width="1738" height="326" key="GridCell.Tab.0.right/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616437467267" />
+    <state width="1738" height="364" key="GridCell.Tab.0.right/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075951" />
+    <state width="1738" height="364" key="GridCell.Tab.1.bottom" timestamp="1616349920440">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616248751326" />
+    <state width="1738" height="364" key="GridCell.Tab.1.bottom/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920440" />
+    <state width="1738" height="364" key="GridCell.Tab.1.bottom/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075953" />
+    <state width="1738" height="364" key="GridCell.Tab.1.center" timestamp="1616349920438">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616248751324" />
+    <state width="1738" height="364" key="GridCell.Tab.1.center/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920438" />
+    <state width="1738" height="364" key="GridCell.Tab.1.center/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075952" />
+    <state width="1738" height="364" key="GridCell.Tab.1.left" timestamp="1616349920437">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616248751324" />
+    <state width="1738" height="364" key="GridCell.Tab.1.left/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920437" />
+    <state width="1738" height="364" key="GridCell.Tab.1.left/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075952" />
+    <state width="1738" height="364" key="GridCell.Tab.1.right" timestamp="1616349920439">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616248751325" />
+    <state width="1738" height="364" key="GridCell.Tab.1.right/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920439" />
+    <state width="1738" height="364" key="GridCell.Tab.1.right/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075953" />
+    <state width="1738" height="364" key="GridCell.Tab.2.bottom" timestamp="1616349920483">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.2.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820774915" />
+    <state width="1738" height="364" key="GridCell.Tab.2.bottom/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920483" />
+    <state width="1738" height="364" key="GridCell.Tab.2.bottom/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075954" />
+    <state width="1738" height="364" key="GridCell.Tab.2.center" timestamp="1616349920442">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.2.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820774914" />
+    <state width="1738" height="364" key="GridCell.Tab.2.center/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920442" />
+    <state width="1738" height="364" key="GridCell.Tab.2.center/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075954" />
+    <state width="1738" height="364" key="GridCell.Tab.2.left" timestamp="1616349920441">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.2.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820774913" />
+    <state width="1738" height="364" key="GridCell.Tab.2.left/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920441" />
+    <state width="1738" height="364" key="GridCell.Tab.2.left/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075953" />
+    <state width="1738" height="364" key="GridCell.Tab.2.right" timestamp="1616349920481">
+      <screen x="54" y="23" width="1738" height="1097" />
+    </state>
+    <state width="1738" height="364" key="GridCell.Tab.2.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820774914" />
+    <state width="1738" height="364" key="GridCell.Tab.2.right/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1616349920481" />
+    <state width="1738" height="364" key="GridCell.Tab.2.right/54.23.1738.1097@54.23.1738.1097" timestamp="1615855075954" />
+    <state x="179" y="101" key="MergeDialog" timestamp="1615818327974">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="179" y="101" key="MergeDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615818327974" />
+    <state x="525" y="214" key="MultipleFileMergeDialog" timestamp="1615818328022">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="525" y="214" key="MultipleFileMergeDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615818328022" />
+    <state x="311" y="111" key="SettingsEditor" timestamp="1615312976807">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="311" y="111" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615312976807" />
+    <state x="2125" y="39" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1614428825448" />
+    <state x="474" y="218" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1614523750768">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="474" y="218" key="com.intellij.javaee.view.ServerArtifactsDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614523750768" />
+    <state x="1792" y="0" width="1920" height="1080" maximized="true" key="dock-window-1" timestamp="1614696597587">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1792" y="0" width="1920" height="1080" maximized="true" key="dock-window-1/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614695729788" />
+    <state x="1792" y="0" width="1920" height="1080" maximized="true" key="dock-window-1/1792.0.1920.1080/54.23.1738.1097@54.23.1738.1097" timestamp="1614696597587" />
+    <state x="1792" y="0" width="1920" height="1080" key="dock-window-1/1792.23.1920.1057/54.0.1738.1120@54.0.1738.1120" timestamp="1614695594191" />
+    <state x="1792" y="0" width="1920" height="1080" key="dock-window-1/1792.23.1920.1057/54.23.1738.1097@54.23.1738.1097" timestamp="1614695893952" />
+    <state x="1940" y="23" width="1093" height="1057" key="dock-window-2" timestamp="1614697420572">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1940" y="23" width="1093" height="1057" key="dock-window-2/1792.23.1920.1057/54.0.1738.1120@54.0.1738.1120" timestamp="1614697420572" />
+    <state x="443" y="244" width="1062" height="632" key="find.popup" timestamp="1615387910461">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="443" y="244" width="1062" height="632" key="find.popup/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615387910461" />
+    <state width="750" height="530" key="javadoc.popup" timestamp="1616524146013">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="750" height="530" key="javadoc.popup/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616524146013" />
+    <state x="2436" y="79" key="refactoring.ChangeSignatureDialog" timestamp="1616524010741">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2436" y="79" key="refactoring.ChangeSignatureDialog/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616524010741" />
+    <state x="2303" y="85" width="898" height="996" key="search.everywhere.popup" timestamp="1616925524085">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="477" y="88" width="872" height="1032" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1615635533717" />
+    <state x="477" y="88" width="872" height="1032" key="search.everywhere.popup/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1615820227317" />
+    <state x="2303" y="85" width="898" height="996" key="search.everywhere.popup/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1616925524085" />
+    <state x="2303" y="85" width="898" height="996" key="search.everywhere.popup/1792.0.1920.1080/54.23.1738.1097@1792.0.1920.1080" timestamp="1616925447703" />
+    <state x="2303" y="85" width="898" height="996" key="search.everywhere.popup/1792.23.1920.1057/54.23.1738.1097@1792.23.1920.1057" timestamp="1616923955574" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/filter/CharsetEncodingFilter.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/webapp/register-form.jsp</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/cs61b/CS61B-sp21/library-sp21/javalib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServlet.java</url>
+          <line>354</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar!/javax/validation/constraints/NotNull.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/test/java/org/geektimes/configuration/demo/PreferencesDemo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/test/java/org/geektimes/configuration/demo/PreferencesDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/context/ComponentContext.java</url>
+          <line>200</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/logging/UserWebLoggingConfiguration.java</url>
+          <line>22</line>
+          <properties class="org.geektimes.projects.user.logging.UserWebLoggingConfiguration" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
