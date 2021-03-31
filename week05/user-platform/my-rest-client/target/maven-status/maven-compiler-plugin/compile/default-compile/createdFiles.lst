@@ -4,6 +4,7 @@ org/geektimes/rest/core/DefaultUriBuilder.class
 org/geektimes/rest/client/HttpGetInvocation.class
 org/geektimes/rest/client/DefaultInvocationBuilder.class
 org/geektimes/rest/DefaultRuntimeDelegate.class
+org/geektimes/rest/client/HttpPostInvocation.class
 org/geektimes/rest/util/URLUtils.class
 org/geektimes/rest/util/PathUtils.class
 org/geektimes/rest/core/DefaultResponse.class

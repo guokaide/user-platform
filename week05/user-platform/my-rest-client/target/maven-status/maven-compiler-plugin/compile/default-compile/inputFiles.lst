@@ -7,6 +7,7 @@
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/DefaultRuntimeDelegate.java
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/core/DefaultResponseBuilder.java
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/client/MutableClientRequestContext.java
+/Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/client/HttpPostInvocation.java
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/core/DefaultUriBuilder.java
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/client/ImmutableWebTarget.java
 /Users/kai/programs/github/work/geekbang-lessons/projects/stage-0/user-platform/my-rest-client/src/main/java/org/geektimes/rest/client/DefaultVariantListBuilder.java
